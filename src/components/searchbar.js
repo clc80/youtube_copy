@@ -17,7 +17,7 @@ class Searchbar extends Component {
 
         </input>
       </main>
-    )
+    );
   }
 }
 
