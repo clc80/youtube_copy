@@ -5,13 +5,13 @@ class VideoList extends Component {
     return(
       <main>
         <h1>Video List</h1>
-        <div>
+        <ul className='col-md-4 list-group'>
           {this.props.videos.map((video, index) => {
             return(
               <li key={index}> {video.snippet.title}</li>
             )
           })}
-        </div>
+        </ul>
       </main>
     );
   }
