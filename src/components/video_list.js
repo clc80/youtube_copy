@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import VideoListItem from './video_list_item';
 
 class VideoList extends Component {
   render() {
@@ -6,11 +7,7 @@ class VideoList extends Component {
       <main>
         <h1>Video List</h1>
         <ul className='col-md-4 list-group'>
-          {this.props.videos.map((video, index) => {
-            return(
-              <li key={index}> {video.snippet.title}</li>
-            )
-          })}
+          <VideoListItem videos = {this.props.videos} />
         </ul>
       </main>
     );
