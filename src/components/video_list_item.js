@@ -20,6 +20,7 @@ class VideoListItem extends Component {
               <div className='media-left'>
                 <img className='media-object'
                   src={video.snippet.thumbnails.default.url}
+                  alt={video.snippet.title}
                 />
               </div>
               <div className='media-body'>
