@@ -14,7 +14,6 @@ class Searchbar extends Component {
           value = {this.state.searchTerm}
           onChange={(e) => this.setState({searchTerm: e.target.value})}
         >
-
         </input>
       </main>
     );
