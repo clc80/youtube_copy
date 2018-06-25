@@ -4,7 +4,7 @@ class VideoListItem extends Component {
   render() {
     const {video, index} = this.props;
     return(
-      <section>
+      <section className="media">
         <li
           className='list-group-item'
           key={index}

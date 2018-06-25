@@ -8,7 +8,7 @@ class Searchbar extends Component {
 
   render() {
     return (
-      <main>
+      <main className="search-bar">
         <h1 > Searchbar </h1>
         <input type="input"
           value = {this.state.searchTerm}
